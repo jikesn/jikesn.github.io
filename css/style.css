@@ -1,0 +1,370 @@
+/* *Project Name:SAF招聘项目模板v1.0
+*=====================================
+*Copy 2016-2017 SAF网络联盟
+*Web: http://www.52saf.com
+*=====================================
+*Author: 逸轩
+*QQ：740749820
+*Date: ${date} */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+} 
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+html, body {
+  position: relative;
+  height: 100%;
+  overflow:hidden;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* 背景音乐 */
+@-webkit-keyframes rotate {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.play{          
+  -webkit-animation:rotate 3s infinite linear;
+  animation:rotate 3s infinite linear;
+}
+
+/* 通用设置 */
+/* img自动上滑动画 */
+.img-up{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  animation:goup 1s infinite;
+  -webkit-animation:goup 1s infinite; /*Safari and Chrome*/
+  z-index:3;
+}
+@keyframes goup{
+  from {bottom:25px;}
+  to {bottom:40px;}
+}
+/*Safari and Chrome*/
+@-webkit-keyframes goup{
+  from {bottom:25px;}
+  to {bottom:40px;}
+}
+
+.ani{
+	position:absolute;
+	}
+
+/* display */
+.hide{
+/*    display:none; */
+}
+
+/* 页面背景 */
+.page-1-1{ background-color:#EDEDED; background: url(http://i1.piimg.com/570614/9880fca1b66b82e7.png) center center no-repeat ; background-size:cover;}
+.page-2-1{ background-color:#EDEDED; background: url(http://i1.piimg.com/570614/e271fd4320df49cf.png) center center no-repeat ; background-size:cover}
+.page-3-1{ background-color:#EDEDED; background: url(http://i1.piimg.com/570614/a45dd54c9494071c.png) center center no-repeat ; background-size:cover}
+.page-4-1{ background-color:#F94848;}
+.page-5-1{ background-color:#EC5F55;}
+.page-6-1{ background-color:#7876B7;}
+.page-7-1{ background-color:#147C79;}
+.page-8-1{ background-color:#619B51;}
+.page-9-1{ background-color:#5FBDD9;}
+.page-10-1{ background-color:#CBFFFA;background: url(http://p1.bpimg.com/570614/793c6b5d8581aa48.png) center center no-repeat ; background-size:cover}
+
+/* 页面1配置 */
+.page-1-1 .img_1 {
+  height:auto;
+  width:280px;
+	 position:absolute;
+	 left:50%;
+	 top:50%;
+	 margin-left:-140px;
+	 margin-top:-140px;
+  z-index:1;
+}
+.page-1-1 .img_2 {
+  height:auto;
+  width:300px;
+  position:absolute;
+  left:50%;
+  top:55%;
+  margin-left:-150px;
+  margin-top:-150px;
+  z-index:1;
+}
+
+/* 页面2配置 */
+.page-2-1 .img_1 {
+  height:auto;
+  width:90px;
+  position:absolute;
+  left:50%;
+  top:5%;
+  margin-left:-45px;
+  z-index:2;
+}
+.page-2-1 .img_2 {
+	height:auto;
+  width:150px;
+	position:absolute;
+	left:50%;
+	bottom:13%;
+	margin-left:-75px;
+}
+
+/* 页面3配置 */
+.page-3-1 .img_1{
+  height:auto;
+  width:132px;
+	 position:absolute;
+	 left:50%;
+	 top:10%;
+	 margin-left:-66px;
+	 z-index:2;
+}
+.page-3-1 .img_2{
+  height:auto;
+  width:214px;
+	 position:absolute;
+	 left:50%; 
+	 margin-left:-107px;
+	 bottom:20%;
+}
+
+/* 页面4配置 */
+.page-4-1 .img_1{
+	 height:auto;
+  width:268px;
+	 position:absolute;
+	 left:50%;
+	 top:13%;
+	 margin-left:-134px;
+	 z-index:2;
+}
+.page-4-1 .img_2 {
+	 height:auto;
+  width:266.5px;
+	 position:absolute;
+	 left:50%;
+	 top:40%;
+	 margin-left:-133.25px;
+}
+.page-4-1 .img_3 {
+	height:auto;width:320px;
+	position:absolute;
+	left:50%;
+	bottom:20%;
+	margin-left:-160px;
+}
+
+/* 页面5配置 */
+.page-5-1 .img_1 {
+	height:auto;
+	width:230px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin-left:-115px;
+}
+.page-5-1 .img_2 {
+	height:auto;
+	width:209px;
+	position:absolute;
+	left:50%;
+	top:13%;
+	margin-left:-104.5px;
+}
+.page-5-1 .img_3 {
+	height:auto;
+	width:203px;
+	position:absolute;
+	left:50%;
+	bottom:15%;
+	margin-left:-103.5px;
+}
+
+/* 页面6配置 */
+.page-6-1 .img_1 {
+	height:auto;
+	width:242.5px;
+	position:absolute;
+	left:50%;
+	top:60px;
+	margin-left:-121.25px;
+	 
+}
+.page-6-1 .img_2 {
+	height:auto;
+	width:236px;
+	position:absolute;
+	left:50%;
+	top:13%;
+	margin-left:-105px;
+}
+.page-6-1 .img_3 {
+	height:auto;
+	width:174.5px;
+	position:absolute;
+	left:50%;
+	bottom:15%;
+	margin-left:-87.25px;
+}
+
+/* 页面7配置 */
+.page-7-1 .img_1 {
+	height:auto;
+	width:263px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin-left:-131.5px;
+	 
+}
+.page-7-1 .img_2 {
+	height:auto;
+	width:255px;
+	position:absolute;
+	left:50%;
+	top:28px;
+	margin-left:-127.5px;
+}
+.page-7-1 .img_3 {
+	height:auto;
+	width:175px;
+	position:absolute;
+	left:50%;
+	bottom:15%;
+	margin-left:-87.75px;
+}
+
+/* 页面8配置 */
+.page-8-1 .img_1 {
+	height:auto;
+	width:273px;
+	position:absolute;
+	left:50%;
+	top:50px;
+	margin-left:-136.5px;
+	 
+}
+.page-8-1 .img_2 {
+	height:auto;
+	width:225.5px;
+	position:absolute;
+	left:50%;
+	top:60px;
+	margin-left:-112.75px;
+}
+.page-8-1 .img_3 {
+	height:auto;
+	width:174.5px;
+	position:absolute;
+	left:50%;
+	bottom:15%;
+	margin-left:-87.25px;
+}
+
+/* 页面9配置 */
+.page-9-1 .img_1 {
+	height:auto;
+	width:260.5px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin-left:-130.25px;
+	 
+}
+.page-9-1 .img_2 {
+	height:auto;
+	width:320px;
+	position:absolute;
+	left:50%;
+	bottom:0px;
+	margin-left:-160px;
+}
+
+/* 页面10配置 */
+.page-10-1 .img_1 {
+	height:auto;
+	width:288px;
+	position:absolute;
+	left:50%;
+	top:40px;
+	margin-left:-144px;	 
+}
+.page-10-1 div.text{
+	top:276px;	
+	color:#FF811A;
+	font-size:16px;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	line-height:1.5em;
+}
+.page-10-1 div.text a{
+	color:#FF811A;
+}
+.page-10-1 span h2{
+	font-size:28px;
+}
+.page-10-1 span h3{
+	font-size:24px;
+}
+
+.page-10-1 ul{
+  list-style:none;
+  position:absolute;
+  bottom:5px;
+}
+.page-10-1 li{
+  margin:10px;
+}
+.page-10-1 #img{
+  width:157.5px;
+  height:auto;
+}
