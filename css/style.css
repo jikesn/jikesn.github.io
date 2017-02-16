@@ -345,6 +345,8 @@ body {
 	position:absolute;
 	text-align:center;
 	width:100%;
+	left:50%;
+	transform:translateX(-50%);
 	line-height:1.5em;
 }
 .page-10-1 div.text a{
@@ -366,6 +368,8 @@ body {
   margin:10px;
 }
 .page-10-1 #img{
-  width:450px;
-  height:auto;
+  	width:450px;
+  	height:auto;
+	left:50%;
+	transform:translateX(-50%);
 }
