@@ -365,6 +365,8 @@ body {
 .page-10-1 ul{
   list-style:none;
   position:absolute;
+	left:50%;
+	transform:translateX(-50%);
   bottom:5px;
 }
 .page-10-1 li{
@@ -373,6 +375,4 @@ body {
 .page-10-1 #img{
   	width:450px;
   	height:auto;
-	left:50%;
-	transform:translateX(-50%);
 }
