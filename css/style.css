@@ -79,6 +79,7 @@ body {
 /* img自动上滑动画 */
 .img-up{
   position:absolute;
+  width:10%;
   left:50%;
   transform:translateX(-50%);
   animation:goup 1s infinite;
@@ -118,229 +119,229 @@ body {
 
 /* 页面1配置 */
 .page-1-1 .img_1 {
-  height:auto;
-  width:280px;
-	 position:absolute;
-	 left:50%;
-	 top:50%;
-	 margin-left:-140px;
-	 margin-top:-140px;
-  z-index:1;
+  	height:auto;
+  	width:70%;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-330px;
+	margin-top:-330px;
+  	z-index:1;
 }
 .page-1-1 .img_2 {
   height:auto;
-  width:300px;
+  width:600px;
   position:absolute;
   left:50%;
   top:55%;
-  margin-left:-150px;
-  margin-top:-150px;
+  margin-left:-300px;
+  margin-top:-300px;
   z-index:1;
 }
 
 /* 页面2配置 */
 .page-2-1 .img_1 {
   height:auto;
-  width:90px;
+  width:200px;
   position:absolute;
   left:50%;
   top:5%;
-  margin-left:-45px;
+  margin-left:-100px;
   z-index:2;
 }
 .page-2-1 .img_2 {
 	height:auto;
-  width:150px;
+  width:360px;
 	position:absolute;
 	left:50%;
 	bottom:13%;
-	margin-left:-75px;
+	margin-left:-180px;
 }
 
 /* 页面3配置 */
 .page-3-1 .img_1{
   height:auto;
-  width:132px;
+  width:360px;
 	 position:absolute;
 	 left:50%;
 	 top:10%;
-	 margin-left:-66px;
+	 margin-left:-180px;
 	 z-index:2;
 }
 .page-3-1 .img_2{
   height:auto;
-  width:214px;
+  width:400px;
 	 position:absolute;
 	 left:50%; 
-	 margin-left:-107px;
+	 margin-left:-200px;
 	 bottom:20%;
 }
 
 /* 页面4配置 */
 .page-4-1 .img_1{
 	 height:auto;
-  width:268px;
+  width:600px;
 	 position:absolute;
 	 left:50%;
 	 top:13%;
-	 margin-left:-134px;
+	 margin-left:-300px;
 	 z-index:2;
 }
 .page-4-1 .img_2 {
 	 height:auto;
-  width:266.5px;
+  width:600px;
 	 position:absolute;
 	 left:50%;
 	 top:40%;
-	 margin-left:-133.25px;
+	 margin-left:-300px;
 }
 .page-4-1 .img_3 {
-	height:auto;width:320px;
+	height:auto;width:600px;
 	position:absolute;
 	left:50%;
 	bottom:20%;
-	margin-left:-160px;
+	margin-left:-300px;
 }
 
 /* 页面5配置 */
 .page-5-1 .img_1 {
 	height:auto;
-	width:230px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin-left:-115px;
+	margin-left:-250px;
 }
 .page-5-1 .img_2 {
 	height:auto;
-	width:209px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:13%;
-	margin-left:-104.5px;
+	margin-left:-250px;
 }
 .page-5-1 .img_3 {
 	height:auto;
-	width:203px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	bottom:15%;
-	margin-left:-103.5px;
+	margin-left:-250px;
 }
 
 /* 页面6配置 */
 .page-6-1 .img_1 {
 	height:auto;
-	width:242.5px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:60px;
-	margin-left:-121.25px;
+	margin-left:-250px;
 	 
 }
 .page-6-1 .img_2 {
 	height:auto;
-	width:236px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:13%;
-	margin-left:-105px;
+	margin-left:-250px;
 }
 .page-6-1 .img_3 {
 	height:auto;
-	width:174.5px;
+	width:400px;
 	position:absolute;
 	left:50%;
 	bottom:15%;
-	margin-left:-87.25px;
+	margin-left:-200px;
 }
 
 /* 页面7配置 */
 .page-7-1 .img_1 {
 	height:auto;
-	width:263px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin-left:-131.5px;
+	margin-left:-250px;
 	 
 }
 .page-7-1 .img_2 {
 	height:auto;
-	width:255px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:28px;
-	margin-left:-127.5px;
+	margin-left:-250px;
 }
 .page-7-1 .img_3 {
 	height:auto;
-	width:175px;
+	width:400px;
 	position:absolute;
 	left:50%;
 	bottom:15%;
-	margin-left:-87.75px;
+	margin-left:-200px;
 }
 
 /* 页面8配置 */
 .page-8-1 .img_1 {
 	height:auto;
-	width:273px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:50px;
-	margin-left:-136.5px;
+	margin-left:-250px;
 	 
 }
 .page-8-1 .img_2 {
 	height:auto;
-	width:225.5px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:60px;
-	margin-left:-112.75px;
+	margin-left:-250px;
 }
 .page-8-1 .img_3 {
 	height:auto;
-	width:174.5px;
+	width:400px;
 	position:absolute;
 	left:50%;
 	bottom:15%;
-	margin-left:-87.25px;
+	margin-left:-200px;
 }
 
 /* 页面9配置 */
 .page-9-1 .img_1 {
 	height:auto;
-	width:260.5px;
+	width:500px;
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin-left:-130.25px;
+	margin-left:-250px;
 	 
 }
 .page-9-1 .img_2 {
 	height:auto;
-	width:320px;
+	width:600px;
 	position:absolute;
 	left:50%;
 	bottom:0px;
-	margin-left:-160px;
+	margin-left:-300px;
 }
 
 /* 页面10配置 */
 .page-10-1 .img_1 {
 	height:auto;
-	width:288px;
+	width:800px;
 	position:absolute;
 	left:50%;
 	top:40px;
-	margin-left:-144px;	 
+	margin-left:-400px;	 
 }
 .page-10-1 div.text{
-	top:276px;	
+	top:700px;	
 	color:#FF811A;
-	font-size:16px;
+	font-size:40px;
 	position:absolute;
 	text-align:center;
 	width:100%;
@@ -365,6 +366,6 @@ body {
   margin:10px;
 }
 .page-10-1 #img{
-  width:157.5px;
+  width:450px;
   height:auto;
 }
